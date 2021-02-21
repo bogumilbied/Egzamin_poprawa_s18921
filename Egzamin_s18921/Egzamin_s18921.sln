@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egzamin_s18921", "Egzamin_s18921\Egzamin_s18921.csproj", "{ED8659B9-6E6A-4C52-A2F9-F99527199BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8659B9-6E6A-4C52-A2F9-F99527199BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8659B9-6E6A-4C52-A2F9-F99527199BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8659B9-6E6A-4C52-A2F9-F99527199BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8659B9-6E6A-4C52-A2F9-F99527199BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4386617-6641-4BCD-B51A-F21DD3F3175D}
+	EndGlobalSection
+EndGlobal
