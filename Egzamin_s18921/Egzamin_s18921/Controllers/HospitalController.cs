@@ -52,6 +52,20 @@ namespace Egzamin_s18921.Controllers
             return NotFound();
         }
 
+        public IActionResult GetPrescription(int id)
+        {
+            if (hospitalDbContext.Prescription.Where(d => d.IdPrescription == id).Any())
+            {
+                var medicament = hospitalDbContext.Prescription_Medicament
+                    .Include(d => d.IdMedicament)
+                    .Where(d => d.IdPrescription == id).Select(d => d.IdMedicament)
+                    .ToList();
+                var prescription = hospitalDbContext.Medicament.SingleOrDefault(d => d.IdMedicament == id);
+                return Ok(prescription);
+            }
+            return NotFound();
+        }
+
         [HttpDelete("{id}")]
         public IActionResult DeleteDoctor(int id)
         {
